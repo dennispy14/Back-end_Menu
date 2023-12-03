@@ -1,6 +1,6 @@
-package com.example.menu.food;
+package com.example.menu.modelos.entity;
 
-import com.example.menu.FoodRequestDTO;
+import com.example.menu.api.dtos.FoodRequestDTO;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

@@ -1,6 +1,6 @@
-package com.example.menu;
+package com.example.menu.api.dtos;
 
-import com.example.menu.food.Food;
+import com.example.menu.modelos.entity.Food;
 
 public record FoodResponseDTO (Long id, String title, String image, Integer price){
     public FoodResponseDTO(Food food){
